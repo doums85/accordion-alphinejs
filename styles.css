@@ -45,6 +45,15 @@ body {
   margin-left: 1rem;
   margin-right: 1rem;
 }
+/* TITTLE */
+.container__title{
+text-align: center;
+margin-bottom: 2rem;
+}
+
+.container__title span {
+  color: #77c1d2;
+}
 
 /* ACCORDION */
 .accordion {
@@ -165,14 +174,24 @@ body {
 
 /* Footer */
 footer {
+  width: 100vw;
   position: absolute;
   bottom: 10px;
   left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 footer i {
   color: #ffc08a;
   font-size: 2.5rem;
+}
+
+footer a{
+  text-decoration: none;
+  color: var(--text-color);
 }
 
 /* MEDIA QUERIES */

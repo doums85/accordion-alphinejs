@@ -1,5 +1,6 @@
 /* GOOGLE FONTS */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&=displayswap");
+
 /* VARIABLES CSS */
 :root {
   /* Colors */
@@ -139,6 +140,14 @@ body {
   background-color: #8ad8ff;
 }
 
+.accordion__item:nth-child(5) {
+  background-color: #aef1ee77;
+}
+
+.accordion__item:nth-child(5)::after {
+  background-color: #aef1ee;
+}
+
 .accordion__content {
   overflow: hidden;
   height: 0;
@@ -155,7 +164,7 @@ body {
 }
 
 /* Footer */
-footer{
+footer {
   position: absolute;
   bottom: 10px;
   left: 30px;
@@ -175,12 +184,15 @@ footer i {
     padding: 2.5rem;
     border-radius: .75rem;
   }
+
   .accordion__header {
     padding: 1.5rem;
   }
+
   .accordion__title {
     padding-right: 3.5rem;
   }
+
   .accordion__description {
     padding: 0 4rem 1.25rem 3.5rem;
   }
